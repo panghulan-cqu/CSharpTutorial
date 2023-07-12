@@ -14,7 +14,8 @@ namespace HelloWorld
             April,      // 3
             May,        // 4
             June,       // 5
-            July        // 6
+            July,
+            August // 6
         }
 
         static void Main(string[] args)
