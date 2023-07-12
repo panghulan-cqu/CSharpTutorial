@@ -1,12 +1,27 @@
-﻿namespace HelloWorld
+﻿using System.Net.NetworkInformation;
+
+namespace HelloWorld
 {
+
+
     class Program
     {
-        /* This is a
-         multiple line comment*/
+        enum Months
+        {
+            January,    // 0
+            February,   // 1
+            March,      // 2
+            April,      // 3
+            May,        // 4
+            June,       // 5
+            July        // 6
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine(Math.Round(9.49));
+            int myNum = (int)Months.April;
+            Console.WriteLine(myNum);
         }
     }
+
 }
